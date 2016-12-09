@@ -1,0 +1,23 @@
+{
+  "name": "osbohabot",
+  "version": "1.0.0",
+  "description": "Osboha bot helping people to join Osboha and find books and download them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmeeaad/OsbohaBot.git"
+  },
+  "keywords": [
+    "Books",
+    "Osboha"
+  ],
+  "author": "Mohamed AbdELAzim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhmeeaad/OsbohaBot/issues"
+  },
+  "homepage": "https://github.com/mhmeeaad/OsbohaBot#readme"
+}
