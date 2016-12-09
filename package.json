@@ -1,17 +1,16 @@
 {
   "name": "osbohabot",
   "version": "0.1.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A sample Bot",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.9.2"
   },
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+
   },
   "repository": {
     "type": "git",
