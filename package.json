@@ -1,23 +1,28 @@
 {
   "name": "osbohabot",
-  "version": "1.0.0",
-  "description": "Osboha bot helping people to join Osboha and find books and download them",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "app.js",
   "scripts": {
-      "start":"node app.js"
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhmeeaad/OsbohaBot.git"
+    "url": "https://github.com/mhmeeaad/OsbohaBot.git"
   },
   "keywords": [
+    "node",
+    "heroku",
+    "express"
     "Books",
     "Osboha"
   ],
-  "author": "Mohamed AbdELAzim",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mhmeeaad/OsbohaBot/issues"
-  },
-  "homepage": "https://github.com/mhmeeaad/OsbohaBot#readme"
+  "license": "MIT"
 }
