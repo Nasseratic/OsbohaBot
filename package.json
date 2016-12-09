@@ -2,9 +2,9 @@
   "name": "osbohabot",
   "version": "1.0.0",
   "description": "Osboha bot helping people to join Osboha and find books and download them",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-      "start":"node index.js"
+      "start":"node app.js"
   },
   "repository": {
     "type": "git",

@@ -5,6 +5,7 @@ var app = express() ;
 
 app.get('/', function (req, res) {
   res.send('hello world');
+  console.console.log("Finaly");
 });
 
 app.get('/webhook', function(req, res) {
