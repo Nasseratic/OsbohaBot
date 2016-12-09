@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express() ;
 
-app.set('port' , (process.env.PORT || 5000));
+
 
 app.get('/', function (req, res) {
   res.send('hello world');
@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 
 app.get('/webhook', function(req, res) {
   if (req.query['hub.mode'] === 'subscribe' &&
-      req.query['hub.verify_token'] === '<Osboha_verify>') {
+      req.query['hub.verify_token'] === 'Osboha_verify') {
     console.log("Validating webhook");
     res.status(200).send(req.query['hub.challenge']);
   } else {
@@ -21,3 +21,5 @@ app.get('/webhook', function(req, res) {
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
+
+app.listen(process.env.PORT);
