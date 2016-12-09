@@ -4,6 +4,7 @@
   "description": "Osboha bot helping people to join Osboha and find books and download them",
   "main": "index.js",
   "scripts": {
+      "start":"node index.js"
   },
   "repository": {
     "type": "git",
